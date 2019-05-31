@@ -1,0 +1,52 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.ion-ios-tab1Icon,
+.ion-md-tab1Icon {
+  content: url(../../assets/icons/kelplat-favorites.svg);
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.ion-ios-tab2Icon,
+.ion-md-tab2Icon {
+  content: url(../../assets/icons/kelplat-search.svg);
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.ion-ios-tab3Icon,
+.ion-md-tab3Icon {
+  content: url(../../assets/icons/kelplat-about.svg);
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.tabs-md .tab-button[aria-selected=true] {
+    color: #1cb6cb !important
+}
+.tab-item.tab-item-active {
+    color: #1cb6cb !important
+}
+ion-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 90px 1px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
