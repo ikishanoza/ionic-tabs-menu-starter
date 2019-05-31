@@ -1,0 +1,8 @@
+{
+  "name": "kel_ionic_3",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
